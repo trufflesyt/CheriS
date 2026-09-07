@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'HeartBubble';
+    src: url(fonts/Sweetbliss\ Personal\ Use.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'KOVAENTERTAINMENT';
+    src: url(fonts/BebasNeue-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'CheriS';
+    src: url(fonts/StylishCalligraphyDemo-XPZZ.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+h1 {
+  font-family: 'KOVAENTERTAINMENT';
+  color: black;
+}
+
+h2 {
+    color:rgb(210, 200, 255);
+    font-family:'CheriS';
+    font-size: 50px;
+}
+h3 {
+    color: white;
+    font-family: 'HeartBubble';
+    font-size: 25px;
+}
+body {
+    text-align: center;
+    background-color:rgb(255, 218, 229);
+    color:pink;
+}
+
+img {
+    height: 250px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(210, 200, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none; 
+    background-color: #fde8f7;
+    border-radius: 6px; 
+    border: 1px solid rgba(124, 0, 45, 0.336);
+    transition: background-color 0.2s ease;
+    cursor: pointer;  
+}
+.button:hover {
+  background-color: #fff4fc;
+}
