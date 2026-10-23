@@ -41,13 +41,13 @@ h2 {
     font-size: 50px;
 }
 h3 {
-    color: white;
+    color: #b1bef2;
     font-family: 'HeartBubble';
     font-size: 25px;
 }
 body {
     text-align: center;
-    background-color:rgb(255, 218, 229);
+    background-color:#fee3ec;
     color:pink;
 }
 
@@ -58,11 +58,11 @@ img {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    color: rgb(210, 200, 255);
+    color:rgb(210, 200, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-decoration: none; 
-    background-color: #fde8f7;
+    background-color: #f2e6f0;
     border-radius: 6px; 
     border: 1px solid rgba(124, 0, 45, 0.336);
     transition: background-color 0.2s ease;
@@ -78,7 +78,7 @@ img {
     padding: 1rem 2rem;
     gap: 25px;
     font-family: 'HeartBubble';
-    background-color: #e8fdfd;
+    background-color: #f2e6f0;
     font-size: 20px;
 }
 #logo {
