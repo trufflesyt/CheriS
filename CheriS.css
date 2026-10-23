@@ -22,6 +22,14 @@
     font-display: swap; 
 }
 
+@font-face {
+    font-family: 'Cherries';
+    src: url(fonts/Pinky\Bloom.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
 h1 {
   font-family: 'KOVAENTERTAINMENT';
   color: black;
@@ -62,4 +70,19 @@ img {
 }
 .button:hover {
   background-color: #fff4fc;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 25px;
+    font-family: 'HeartBubble';
+    background-color: #e8fdfd;
+    font-size: 20px;
+}
+#logo {
+    width: 75px;
+    height: auto;
+    display: block;
 }
